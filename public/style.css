@@ -1,11 +1,18 @@
+#wrapper {
+
+}
+
 #main {
-  width: 50%;
-  margin: 0 auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 15%;
+  width: 1000px;
   text-align: center;
 }
 
 #items {
-  width: 61%;
+  width: 58%;
   margin: 0 auto;
   text-align: center;
 }
