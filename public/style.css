@@ -1,7 +1,3 @@
-#wrapper {
-
-}
-
 #main {
   margin: auto;
   position: absolute;
@@ -28,6 +24,10 @@
 
 .scissors {
   float: left;
+}
+
+h1.try-again {
+  margin-top: 60px;
 }
 
 a {
