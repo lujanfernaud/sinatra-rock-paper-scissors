@@ -1,5 +1,10 @@
+#throws
+  %h1= "You: #{@player_throw.capitalize}"
+  %h1= "Computer: #{@computer_throw.capitalize}"
+
 %h1= @message
 
-%h1.try-again
-  %a{:href => '/'}
-    Try again
+#try-again
+  %h1
+    %a{:href => '/'}
+      Try again

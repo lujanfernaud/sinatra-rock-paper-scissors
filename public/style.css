@@ -13,6 +13,15 @@
   text-align: center;
 }
 
+#throws {
+  margin-bottom: 70px;
+}
+
+#try-again {
+  margin-top: 70px;
+}
+
+
 .rock {
   float: left;
 }
@@ -24,10 +33,6 @@
 
 .scissors {
   float: left;
-}
-
-h1.try-again {
-  margin-top: 60px;
 }
 
 a {
