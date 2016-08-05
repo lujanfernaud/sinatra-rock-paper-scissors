@@ -1,2 +1,3 @@
-# sinatra-rock-paper-scissors
-Simple "rock, paper, scissors" game using Sinatra and Haml
+# Rock, Paper, Scissors in Sinatra
+
+Simple "rock, paper, scissors" game using Sinatra and Haml.
