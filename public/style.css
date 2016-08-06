@@ -44,19 +44,49 @@
   float: left;
 }
 
-.green {
+.win {
   color: #549626;
 }
 
-.red {
+.ouch {
   color: #963026;
 }
 
 a {
+  transition: color 0.1s ease;
   color: black;
   text-decoration: none;
 }
 
 a:hover {
   color: #268C96;
+}
+
+a.animate {
+  -webkit-animation: color_change 1s 2.2s infinite alternate;
+  -moz-animation: color_change 1s 2.2s infinite alternate;
+  -ms-animation: color_change 1s 2.2s infinite alternate;
+  -o-animation: color_change 1s 2.2s infinite alternate;
+  animation: color_change 1s 2.2s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+  from { color: black; }
+  to { color: #268C96; }
+}
+@-moz-keyframes color_change {
+  from { color: black; }
+  to { color: #268C96; }
+}
+@-ms-keyframes color_change {
+  from { color: black; }
+  to { color: #268C96; }
+}
+@-o-keyframes color_change {
+  from { bcolor: black; }
+  to { color: #268C96; }
+}
+@keyframes color_change {
+  from { color: black; }
+  to { color: #268C96; }
 }

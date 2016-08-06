@@ -27,9 +27,9 @@ get '/throw/:type' do
     if @player_throw == @computer_throw
       @message = "You tied with the computer!"
     elsif @computer_throw == @defeat[@player_throw]
-      @message = "<span class='green'>You win!</span> #{@player_throw.capitalize} beats #{@computer_throw}!"
+      @message = "<span class='win'>You win!</span> #{@player_throw.capitalize} beats #{@computer_throw}!"
     else
-      @message = "<span class='red'>Ouch!</span> #{@computer_throw.capitalize} beats #{@player_throw}."
+      @message = "<span class='ouch'>Ouch!</span> #{@computer_throw.capitalize} beats #{@player_throw}."
     end
   else
     @message = "You must throw rock, paper or scissors."
