@@ -24,11 +24,11 @@
 }
 
 #throws {
-  margin-bottom: 70px;
+  margin-bottom: 120px;
 }
 
 #try-again {
-  margin-top: 70px;
+  margin-top: 120px;
 }
 
 .rock {
@@ -44,7 +44,19 @@
   float: left;
 }
 
+.green {
+  color: #549626;
+}
+
+.red {
+  color: #963026;
+}
+
 a {
   color: black;
   text-decoration: none;
+}
+
+a:hover {
+  color: #268C96;
 }
