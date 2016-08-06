@@ -58,16 +58,22 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #268C96;
+a.animate {
+  transition: color 0.5s ease-in-out;
+  -webkit-animation: color_change 1s 2s infinite alternate;
+  -moz-animation: color_change 1s 2s infinite alternate;
+  -ms-animation: color_change 1s 2s infinite alternate;
+  -o-animation: color_change 1s 2s infinite alternate;
+  animation: color_change 1s 2s infinite alternate;
 }
 
-a.animate {
-  -webkit-animation: color_change 1s 2.2s infinite alternate;
-  -moz-animation: color_change 1s 2.2s infinite alternate;
-  -ms-animation: color_change 1s 2.2s infinite alternate;
-  -o-animation: color_change 1s 2.2s infinite alternate;
-  animation: color_change 1s 2.2s infinite alternate;
+a:hover, a.animate:hover {
+  -webkit-animation-iteration-count: 0;
+  -moz-animation-iteration-count: 0;
+  -ms-animation-iteration-count: 0;
+  -o-animation-iteration-count: 0;
+  animation-iteration-count: 0;
+  color: #268C96;
 }
 
 @-webkit-keyframes color_change {
