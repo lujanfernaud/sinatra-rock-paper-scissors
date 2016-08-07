@@ -24,11 +24,11 @@
 }
 
 #throws {
-  margin-bottom: 120px;
+  margin-bottom: 140px;
 }
 
 #try-again {
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 .rock {
@@ -45,26 +45,30 @@
 }
 
 .win {
-  color: #549626;
+  color: hsla(95, 60%, 37%, 0.9);
 }
 
 .ouch {
-  color: #963026;
+  color: hsla(5, 60%, 37%, 0.9);
+}
+
+h1 {
+  color: hsla(184, 60%, 10%, 0.9);
 }
 
 a {
   transition: color 0.1s ease;
-  color: black;
+  color: hsla(184, 60%, 10%, 0.9);
   text-decoration: none;
 }
 
 a.animate {
   transition: color 0.5s ease-in-out;
-  -webkit-animation: color_change 1s 2s infinite alternate;
-  -moz-animation: color_change 1s 2s infinite alternate;
-  -ms-animation: color_change 1s 2s infinite alternate;
-  -o-animation: color_change 1s 2s infinite alternate;
-  animation: color_change 1s 2s infinite alternate;
+  -webkit-animation: color_change 1s 3s infinite alternate;
+  -moz-animation: color_change 1s 3s infinite alternate;
+  -ms-animation: color_change 1s 3s infinite alternate;
+  -o-animation: color_change 1s 3s infinite alternate;
+  animation: color_change 1s 3s infinite alternate;
 }
 
 a:hover, a.animate:hover {
@@ -73,26 +77,26 @@ a:hover, a.animate:hover {
   -ms-animation-iteration-count: 0;
   -o-animation-iteration-count: 0;
   animation-iteration-count: 0;
-  color: #268C96;
+  color: hsla(185, 60%, 37%, 0.9);
 }
 
 @-webkit-keyframes color_change {
-  from { color: black; }
-  to { color: #268C96; }
+  from { color: hsla(184, 60%, 10%, 0.9); }
+  to { color: hsla(185, 60%, 37%, 0.9); }
 }
 @-moz-keyframes color_change {
-  from { color: black; }
-  to { color: #268C96; }
+  from { color: hsla(184, 60%, 10%, 0.9); }
+  to { color: hsla(185, 60%, 37%, 0.9); }
 }
 @-ms-keyframes color_change {
-  from { color: black; }
-  to { color: #268C96; }
+  from { color: hsla(184, 60%, 10%, 0.9); }
+  to { color: hsla(185, 60%, 37%, 0.9); }
 }
 @-o-keyframes color_change {
-  from { bcolor: black; }
-  to { color: #268C96; }
+  from { color: hsla(184, 60%, 10%, 0.9); }
+  to { color: hsla(185, 60%, 37%, 0.9); }
 }
 @keyframes color_change {
-  from { color: black; }
-  to { color: #268C96; }
+  from { color: hsla(184, 60%, 10%, 0.9); }
+  to { color: hsla(185, 60%, 37%, 0.9); }
 }
