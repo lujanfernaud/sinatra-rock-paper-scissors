@@ -101,36 +101,27 @@ a:hover, a.animate:hover {
   to   { color: hsla(185, 60%, 37%, 0.9); }
 }
 
-h1.text-appear-you {
+.text-appear {
   visibility: hidden;
   animation: text-appear-animation 3s ease-in 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.text-appear-you {
   animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
 }
 
-h1.text-appear-computer {
-  visibility: hidden;
-  animation: text-appear-animation 3s ease-in-out 1;
+.text-appear-computer {
   animation-delay: 2.0s;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
 }
 
-h1.text-appear-message {
-  visibility: hidden;
-  animation: text-appear-animation 3s ease-in-out 1;
+.text-appear-message {
   animation-delay: 3.5s;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
 }
 
-h1.text-appear-try-again {
-  visibility: hidden;
-  animation: text-appear-animation 3s ease-in-out 1;
+.text-appear-try-again {
   animation-delay: 5.0s;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes text-appear-animation {
