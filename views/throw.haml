@@ -1,10 +1,10 @@
 #throws
-  %h1= "You: #{@player_throw.capitalize}"
-  %h1= "Computer: #{@computer_throw.capitalize}"
+  %h1.text-appear-you= "You: #{@player_throw.capitalize}"
+  %h1.text-appear-computer= "Computer: #{@computer_throw.capitalize}"
 
-%h1= @message
+%h1.text-appear-message= @message
 
 #try-again
-  %h1
+  %h1.text-appear-try-again
     %a.animate{:href => '/'}
       Try again

@@ -82,21 +82,74 @@ a:hover, a.animate:hover {
 
 @-webkit-keyframes color_change {
   from { color: hsla(184, 60%, 10%, 0.9); }
-  to { color: hsla(185, 60%, 37%, 0.9); }
+  to   { color: hsla(185, 60%, 37%, 0.9); }
 }
 @-moz-keyframes color_change {
   from { color: hsla(184, 60%, 10%, 0.9); }
-  to { color: hsla(185, 60%, 37%, 0.9); }
+  to   { color: hsla(185, 60%, 37%, 0.9); }
 }
 @-ms-keyframes color_change {
   from { color: hsla(184, 60%, 10%, 0.9); }
-  to { color: hsla(185, 60%, 37%, 0.9); }
+  to   { color: hsla(185, 60%, 37%, 0.9); }
 }
 @-o-keyframes color_change {
   from { color: hsla(184, 60%, 10%, 0.9); }
-  to { color: hsla(185, 60%, 37%, 0.9); }
+  to   { color: hsla(185, 60%, 37%, 0.9); }
 }
 @keyframes color_change {
   from { color: hsla(184, 60%, 10%, 0.9); }
-  to { color: hsla(185, 60%, 37%, 0.9); }
+  to   { color: hsla(185, 60%, 37%, 0.9); }
+}
+
+h1.text-appear-you {
+  visibility: hidden;
+  animation: text-appear-animation 3s ease-in 1;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+h1.text-appear-computer {
+  visibility: hidden;
+  animation: text-appear-animation 3s ease-in-out 1;
+  animation-delay: 2.0s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+h1.text-appear-message {
+  visibility: hidden;
+  animation: text-appear-animation 3s ease-in-out 1;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+h1.text-appear-try-again {
+  visibility: hidden;
+  animation: text-appear-animation 3s ease-in-out 1;
+  animation-delay: 5.0s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes text-appear-animation {
+  from { visibility: hidden; }
+  to   { visibility: inherit; }
+}
+@-moz-keyframes text-appear-animation {
+  from { visibility: hidden; }
+  to   { visibility: inherit; }
+}
+@-ms-keyframes text-appear-animation {
+  from { visibility: hidden; }
+  to   { visibility: inherit; }
+}
+@-o-keyframes text-appear-animation {
+  from { visibility: hidden; }
+  to   { visibility: inherit; }
+}
+@keyframes text-appear-animation {
+  from { visibility: hidden; }
+  to   { visibility: inherit; }
 }
